@@ -1,0 +1,25 @@
+{
+  "name": "tabib.pk",
+  "version": "1.0.0",
+  "description": "Connecting Patients to doctors in no time",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon ./server/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Sajid Zaman",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.16.5",
+    "@babel/preset-env": "^7.16.5",
+    "@babel/preset-stage-0": "^7.8.3"
+  },
+  "dependencies": {
+    "body-parser": "^1.19.1",
+    "express": "^4.17.1",
+    "express-validator": "^6.14.0",
+    "mongoose": "^6.1.2",
+    "nodemon": "^2.0.15",
+    "validator": "^13.7.0"
+  }
+}
